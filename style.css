@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+
+}
+.area-for-floating-square{
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#floating-square{
+    background-color: #bebebe;
+    text-align: center;
+    height: 100px; 
+    width: 200px;
+    border: 1px solid #b8b6b6;
+    align-self: center;
+    position: absolute;
+}
